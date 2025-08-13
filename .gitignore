@@ -1,0 +1,26 @@
+# === Sensitive Files ===
+.env
+*.env
+secrets.json
+
+# === Virtual Environments ===
+venv/
+env/
+.venv/
+
+# === Local Data ===
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# === System/IDE ===
+.DS_Store
+.idea/
+.vscode/
+
+# === Python Generated Files ===
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
